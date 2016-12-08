@@ -66,10 +66,10 @@
 
 .get_start_button {
 	font-family: sans serif;
-    padding: 5px 10px;
-    font-size: 1.2em;
+    padding: 0.5vh 1.5vh;
+    font-size: 1.3em;
     border-radius: 15px;
-    margin:0.5vh 0.5vh;
+    margin:0.8vh 0.5vw;
     background-color: #ffffff;
 }
 
