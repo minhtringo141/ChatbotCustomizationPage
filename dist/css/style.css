@@ -1,0 +1,73 @@
+.btn-default {
+	border-radius: 10px;
+}
+
+.children_block {
+	display: flex; 
+	justify-content: space-around;
+	flex-flow: row wrap;
+	flex-basis: 25%;
+	padding: 10px;
+    flex: 2;
+	
+}
+
+.children_block .btn {
+    margin: 5px 5px;
+}
+
+.children_block .normal_btn:focus {
+	background-color: #053748;
+	color: #ffffff;
+	outline: none;
+	box-shadow: none;
+}
+
+.add_btn {
+	background-color: #fffff;
+}
+
+.children_block .add_btn:focus {
+	background-color: #fffff;
+	color: #000000;
+	outline: none;
+	box-shadow: none;
+}
+
+.content-wrapper .content .row h3 {
+	font-weight: bold
+}
+.content-wrapper .content .row .col-md-4 {
+	border-right: 2px dotted gray;
+}
+
+.content-wrapper .content .row .col-md-4 h4 {
+	color: #797979;
+	font-size: 1.5em;
+	margin-left: 10px; 	
+}
+
+/* button messenger */
+
+
+
+.get_start_button {
+	font-family: sans serif;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    margin-top:1vh;
+    margin-right: 1vh;
+    background-color: #ffffff;
+}
+
+.get_start_button img {
+	height: 3.5vh;
+}
+
+.get_start_button:focus{
+	outline: none !important;
+
+}
+
+/* /. button messenger*/
