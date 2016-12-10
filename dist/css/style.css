@@ -43,6 +43,8 @@
 .content-wrapper .content .row h3 {
 	font-weight: bold
 }
+
+
 .content-wrapper .content .row .col-md-4 {
 	border-right: 2px dotted gray;
 	overflow-y: auto;
@@ -197,6 +199,16 @@
 .content-wrapper .content .row .col-md-8 .edit_area_content .gallery textarea {
 	resize: none;
 	width: 16vw
+}
+
+.content-wrapper .content .row .col-md-8 .edit_area_content .image_collection  .image_header button {
+	border : none;
+	border-radius: 10px;
+	margin-top: 0px
+}
+
+.content-wrapper .content .row .col-md-8 .edit_area_content .image_collection  .image_header button:focus {
+	outline: none;
 }
  
 

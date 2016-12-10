@@ -116,8 +116,12 @@
                     </div>
                     <div class="col-md-8">
                         <div class="edit_area_content">
+
+                        <!-- begin BLOCK TITLE AREA -->
                             <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Block Title"></textarea>
-                            
+                        <!-- end BLOCK TITLE AREA -->
+
+                        <!-- begin TEXTCARD  -->
                             <div class="textcard_collection">
                                 <div class="textcard">
 
@@ -141,96 +145,162 @@
                                     </div>
                                 </div>
                             </div>
-                            
+                        <!-- end TEXTCARD -->
 
-
+                        <!-- begin GALLERY -->
                             <div class="gallery_collection">
+
                                 <div class="gallery">
                                     <div class="main_gallery">
                                         <div class="gallery_header">
-                                            <div><button class="close_item_btn"><i class="fa fa-eject" aria-hidden="true"></i></button></div>
+                                            <div>
+                                                <button class="close_item_btn"><i class="fa fa-eject" aria-hidden="true"></i></button>
+                                            </div>
                                         </div>
-
                                         <div class="gallery_content">
-                                            <div><button type="button" class="btn btn-default elements_btn image_btn"><i class="fa fa-camera" aria-hidden="true"></i> IMAGE</button></div>
-                                            <div><textarea data-autoresize rows="2" maxlength="320" id="textarea" placeholder="Heading (required)"></textarea></div>
-                                            <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Subtitle or description"></textarea></div>
-                                            <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="URL"></textarea></div>
-                                            <div><button type="button" class="btn btn-default elements_btn" id="btn_add"><i class="fa fa-plus" aria-hidden="true"> ADD BUTTON</i></button></div>
-
+                                            <div class="gallery_image">
+                                                <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                    <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 16vw; height: 16vh;"></div>
+                                                    <div>
+                                                        <span class="btn btn-default btn-file">
+                                                            <span class="fileinput-new">Select image</span>
+                                                        <span class="fileinput-exists">Change</span>
+                                                        <input type="file" name="...">
+                                                        </span>
+                                                        <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <textarea data-autoresize rows="2" maxlength="320" id="textarea" placeholder="Heading (required)"></textarea>
+                                            </div>
+                                            <div>
+                                                <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Subtitle or description"></textarea>
+                                            </div>
+                                            <div>
+                                                <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="URL"></textarea>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn btn-default elements_btn" id="btn_add"><i class="fa fa-plus" aria-hidden="true"> ADD BUTTON</i></button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="gallery">
                                     <div class="main_gallery">
                                         <div class="gallery_header">
-                                            <div><button class="close_item_btn"><i class="fa fa-eject" aria-hidden="true"></i></button></div>
+                                            <div>
+                                                <button class="close_item_btn"><i class="fa fa-eject" aria-hidden="true"></i></button>
+                                            </div>
                                         </div>
-
                                         <div class="gallery_content">
-                                            <div><button type="button" class="btn btn-default elements_btn image_btn"><i class="fa fa-camera" aria-hidden="true"></i> IMAGE</button></div>
-                                            <div><textarea data-autoresize rows="2" maxlength="320" id="textarea" placeholder="Heading (required)"></textarea></div>
-                                            <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Subtitle or description"></textarea></div>
-                                            <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="URL"></textarea></div>
-                                            <div><button type="button" class="btn btn-default elements_btn" id="btn_add"><i class="fa fa-plus" aria-hidden="true"> ADD BUTTON</i></button></div>
-
+                                            <div class="gallery_image">
+                                                <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                    <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 16vw; height: 16vh;"></div>
+                                                    <div>
+                                                        <span class="btn btn-default btn-file">
+                                                            <span class="fileinput-new">Select image</span>
+                                                        <span class="fileinput-exists">Change</span>
+                                                        <input type="file" name="...">
+                                                        </span>
+                                                        <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <textarea data-autoresize rows="2" maxlength="320" id="textarea" placeholder="Heading (required)"></textarea>
+                                            </div>
+                                            <div>
+                                                <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Subtitle or description"></textarea>
+                                            </div>
+                                            <div>
+                                                <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="URL"></textarea>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn btn-default elements_btn" id="btn_add"><i class="fa fa-plus" aria-hidden="true"> ADD BUTTON</i></button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="gallery">
                                     <div class="main_gallery">
                                         <div class="gallery_header">
-                                            <div><button class="close_item_btn"><i class="fa fa-eject" aria-hidden="true"></i></button></div>
+                                            <div>
+                                                <button class="close_item_btn"><i class="fa fa-eject" aria-hidden="true"></i></button>
+                                            </div>
                                         </div>
-
                                         <div class="gallery_content">
-                                            <div><button type="button" class="btn btn-default elements_btn image_btn"><i class="fa fa-camera" aria-hidden="true"></i> IMAGE</button></div>
-                                            <div><textarea data-autoresize rows="2" maxlength="320" id="textarea" placeholder="Heading (required)"></textarea></div>
-                                            <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Subtitle or description"></textarea></div>
-                                            <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="URL"></textarea></div>
-                                            <div><button type="button" class="btn btn-default elements_btn" id="btn_add"><i class="fa fa-plus" aria-hidden="true"> ADD BUTTON</i></button></div>
-
+                                            <div class="gallery_image">
+                                                <div class="fileinput fileinput-new" data-provides="fileinput">
+                                                    <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 16vw; height: 16vh;"></div>
+                                                    <div>
+                                                        <span class="btn btn-default btn-file">
+                                                            <span class="fileinput-new">Select image</span>
+                                                        <span class="fileinput-exists">Change</span>
+                                                        <input type="file" name="...">
+                                                        </span>
+                                                        <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <textarea data-autoresize rows="2" maxlength="320" id="textarea" placeholder="Heading (required)"></textarea>
+                                            </div>
+                                            <div>
+                                                <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Subtitle or description"></textarea>
+                                            </div>
+                                            <div>
+                                                <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="URL"></textarea>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn btn-default elements_btn" id="btn_add"><i class="fa fa-plus" aria-hidden="true"> ADD BUTTON</i></button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="gallery_add_btn">
-                                    <div><button type="button" class="btn btn-default elements_btn"><i class="fa fa-plus" aria-hidden="true"></i></button></div>
+                                    <div>
+                                        <button type="button" class="btn btn-default elements_btn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                    </div>
                                 </div>
 
-                                
                                 <div class="quickreply_add_btn_content">
-                                        <div class="or_text">OR</div>
-                                            <div>
-                                                <button type="button" class="btn btn-default elements_btn" style="width: 16vw"><i class="fa fa-plus" aria-hidden="true"> ADD QUICK REPLY</i></button>
-                                                <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!"><i class="fa fa-question-circle-o" aria-hidden="true" style="font-size: 1.5em; vertical-align: middle;"></i></a>
-                                            </div>
+                                    <div class="or_text">OR</div>
+                                    <div>
+                                        <button type="button" class="btn btn-default elements_btn" style="width: 16vw"><i class="fa fa-plus" aria-hidden="true"> ADD QUICK REPLY</i></button>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!"><i class="fa fa-question-circle-o" aria-hidden="true" style="font-size: 1.5em; vertical-align: middle;"></i></a>
                                     </div>
+                                </div>
                             </div>
+                        <!-- end GALLERY -->
 
-
+                        <!-- bein IMAGE -->
                             <div class="image_collection">
+                                <div class="image_header">
+                                    <div><button><i class="fa fa-eject" aria-hidden="true"></i></button></div>
+                                </div>
                                 <div class="fileinput fileinput-new" data-provides="fileinput">
                                     <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 16vw; height: 16vh;"></div>
                                     <div>
-                                    <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
-                                    <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                        <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span>
+                                        <input type="file" name="...">
+                                        </span>
+                                        <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
                                     </div>
                                 </div>
-
                                 <div class="quickreply_add_btn_content">
                                     <div>
-                                      <button type="button" class="btn btn-default elements_btn" style="width: 16vw"><i class="fa fa-plus" aria-hidden="true"> ADD QUICK REPLY</i></button>
-                                      <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!"><i class="fa fa-question-circle-o" aria-hidden="true" style="font-size: 1.5em; vertical-align: middle;"></i></a>
+                                        <button type="button" class="btn btn-default elements_btn" style="width: 16vw"><i class="fa fa-plus" aria-hidden="true"> ADD QUICK REPLY</i></button>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!"><i class="fa fa-question-circle-o" aria-hidden="true" style="font-size: 1.5em; vertical-align: middle;"></i></a>
                                     </div>
                                 </div>
                             </div>
 
-
-
+                        <!-- end IMAGE -->
                         </div>
 
+                        <!-- begin bottom 4 selector -->
                         <div class="row main_bottom_btn">
                             <h4> Add a card</h4>
                             <div class="btn btn-app"><i class="fa fa-list" aria-hidden="true"></i>GALLERY</div>
@@ -238,39 +308,40 @@
                             <div class="btn btn-app"><i class="fa fa-file-image-o" aria-hidden="true"></i>IMAGE</div>
                             <div class="btn btn-app"><i class="fa fa-play-circle" aria-hidden="true"></i>VIDEO</div>
                         </div>
+                        <!-- end bottom 4 selector -->
                     </div>
                 </div>
             </section>
             <!-- /.content -->
-            </div>
-            <!-- /.content-wrapper -->
-            <!--  <footer class="main-footer">
+        </div>
+        <!-- /.content-wrapper -->
+        <!--  <footer class="main-footer">
                 <div class="pull-right hidden-xs">
                     <b>Version</b> 2.0.0
                 </div>
                 <strong>Copyright &copy; 2016</a>.</strong> All rights reserved.
             </footer> -->
-            <!-- Add the sidebar's background. This div must be placed
+        <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
-            <!-- <div class="control-sidebar-bg"></div> -->
-        </div>
-        <!-- ./wrapper -->
-        <!-- jQuery 2.2.3 -->
-        <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
-        <!-- Bootstrap 3.3.6 -->
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="bootstrap/css/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
-        <!-- FastClick -->
-        <script src="plugins/fastclick/fastclick.js"></script>
-        <!-- AdminLTE App -->
-        <script src="dist/js/app.min.js"></script>
-        <!-- SlimScroll 1.3.0 -->
-        <script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
-        <!-- AdminLTE dashboard demo (This is only for demo purposes)
+        <!-- <div class="control-sidebar-bg"></div> -->
+    </div>
+    <!-- ./wrapper -->
+    <!-- jQuery 2.2.3 -->
+    <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/css/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="plugins/fastclick/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/app.min.js"></script>
+    <!-- SlimScroll 1.3.0 -->
+    <script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes)
 <script src="dist/js/pages/dashboard2.js"></script> -->
-        <!-- AdminLTE for demo purposes -->
-        <script src="dist/js/demo.js"></script>
-        <script src="dist/js/main.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js"></script>
+    <script src="dist/js/main.js"></script>
 </body>
 
 </html>
