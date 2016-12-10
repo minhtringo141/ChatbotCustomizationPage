@@ -38,6 +38,7 @@
 /* begin listpage */
 .list_page_element .row_title {
 	line-height: 10vh;
+	font-size: 2em
 }
 
 .list_page_element .row .box {
@@ -46,9 +47,60 @@
 	background-color: #ffffff;
 	border-radius: 20px;
 	border: 2px solid gray;
-	padding-bottom: 5vh;
-	
+	margin-bottom: 10vh;
+	display: relative;
 }
+
+.list_page_element .row .box:hover, .list_page_element .row .box:focus {
+	outline: none;
+	border: 2px solid #000000;
+	cursor: all-scroll;
+}
+
+.list_page_element .row .box:hover span {
+	color: #000000
+}
+
+.list_page_element .row .box .glyphicon{
+	font-size: 4em;
+	color: gray;
+}
+
+.list_page_element .row .box .bot_status {
+	height: 100%;
+	width: 100%;
+	padding: 10px 10px;
+	font-size: 1.2em;
+	color: gray;
+}
+
+.list_page_element .row .box .bot_status .status_banner {
+	height: 5vh;
+
+}
+
+.list_page_element .row .box .bot_status .image {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.list_page_element .row .box .bot_status .image img {
+	width: 90px;
+	height: 90px
+}
+
+.list_page_element .row .box .bot_status .footer_connect {
+	width: 70%;
+	height: 20%;
+	border-radius: 10px;
+	border: 1px solid gray;
+	margin: 10px auto;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 8px;
+	font-size: 1.2em
+}
+
 
 
 /* end listpage */
