@@ -9,6 +9,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/jasny-bootstrap/css/jasny-bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Ionicons -->
@@ -116,28 +117,32 @@
                     <div class="col-md-8">
                         <div class="edit_area_content">
                             <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Block Title"></textarea>
+                            
+                            <div class="textcard_collection">
+                                <div class="textcard">
 
-                            <div class="textcard">
+                                    <div class="textcard_header">
+                                        <div><button><i class="fa fa-eject" aria-hidden="true"></i></button></div>
+                                    </div>
 
-                                <div class="textcard_header">
-                                    <div><button><i class="fa fa-eject" aria-hidden="true"></i></button></div>
+                                    <div class="textcard_content">
+                                        <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Enter here"></textarea>
+                                        <div><button type="button" class="btn btn-default elements_btn">aaaaa</button></div>
+                                        <div><button type="button" class="btn btn-default elements_btn">Left</button></div>
+                                        <div id="add_gallery_btn"></div>
+                                        <div><button type="button" class="btn btn-default elements_btn" id="btn_add"><i class="fa fa-plus" aria-hidden="true"> ADD BUTTON</i></button></div>
+                                    </div>
+                                    <div class="quickreply_add_btn_content">
+                                        <div class="or_text">OR</div>
+                                        <div>
+                                        <button type="button" class="btn btn-default elements_btn"><i class="fa fa-plus" aria-hidden="true"> ADD QUICK REPLY</i></button>
+                                      <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!"><i class="fa fa-question-circle-o" aria-hidden="true" style="font-size: 1.5em; vertical-align: middle;"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
-
-                              <div class="textcard_content">
-                                <textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Enter here"></textarea>
-                                <div><button type="button" class="btn btn-default elements_btn">aaaaa</button></div>
-                                <div><button type="button" class="btn btn-default elements_btn">Left</button></div>
-                                <div id="add_gallery_btn"></div>
-                                <div><button type="button" class="btn btn-default elements_btn" id="btn_add"><i class="fa fa-plus" aria-hidden="true"> ADD BUTTON</i></button></div>
-                              </div>
-                              <div class="textcard_add_btn_content">
-                                <div class="or_text">OR</div>
-                                <div>
-                                  <button type="button" class="btn btn-default elements_btn"><i class="fa fa-plus" aria-hidden="true"> ADD QUICK REPLY</i></button>
-                                  <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!"><i class="fa fa-question-circle-o" aria-hidden="true" style="font-size: 1.5em; vertical-align: middle;"></i></a>
-                                </div>
-                              </div>
                             </div>
+                            
+
 
                             <div class="gallery_collection">
                                 <div class="gallery">
@@ -147,7 +152,7 @@
                                         </div>
 
                                         <div class="gallery_content">
-                                            <div><button type="button" class="btn btn-default elements_btn image_btn">IMAGE</button></div>
+                                            <div><button type="button" class="btn btn-default elements_btn image_btn"><i class="fa fa-camera" aria-hidden="true"></i> IMAGE</button></div>
                                             <div><textarea data-autoresize rows="2" maxlength="320" id="textarea" placeholder="Heading (required)"></textarea></div>
                                             <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Subtitle or description"></textarea></div>
                                             <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="URL"></textarea></div>
@@ -155,7 +160,6 @@
 
                                         </div>
                                     </div>
-                                    
                                 </div>
 
                                 <div class="gallery">
@@ -165,7 +169,23 @@
                                         </div>
 
                                         <div class="gallery_content">
-                                            <div><button type="button" class="btn btn-default elements_btn image_btn">IMAGE</button></div>
+                                            <div><button type="button" class="btn btn-default elements_btn image_btn"><i class="fa fa-camera" aria-hidden="true"></i> IMAGE</button></div>
+                                            <div><textarea data-autoresize rows="2" maxlength="320" id="textarea" placeholder="Heading (required)"></textarea></div>
+                                            <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Subtitle or description"></textarea></div>
+                                            <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="URL"></textarea></div>
+                                            <div><button type="button" class="btn btn-default elements_btn" id="btn_add"><i class="fa fa-plus" aria-hidden="true"> ADD BUTTON</i></button></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery">
+                                    <div class="main_gallery">
+                                        <div class="gallery_header">
+                                            <div><button class="close_item_btn"><i class="fa fa-eject" aria-hidden="true"></i></button></div>
+                                        </div>
+
+                                        <div class="gallery_content">
+                                            <div><button type="button" class="btn btn-default elements_btn image_btn"><i class="fa fa-camera" aria-hidden="true"></i> IMAGE</button></div>
                                             <div><textarea data-autoresize rows="2" maxlength="320" id="textarea" placeholder="Heading (required)"></textarea></div>
                                             <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="Subtitle or description"></textarea></div>
                                             <div><textarea data-autoresize rows="1" maxlength="320" id="textarea" placeholder="URL"></textarea></div>
@@ -180,15 +200,35 @@
                                 </div>
 
                                 
-                                <div class="gallery_add_btn_content">
+                                <div class="quickreply_add_btn_content">
                                         <div class="or_text">OR</div>
                                             <div>
                                                 <button type="button" class="btn btn-default elements_btn" style="width: 16vw"><i class="fa fa-plus" aria-hidden="true"> ADD QUICK REPLY</i></button>
                                                 <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!"><i class="fa fa-question-circle-o" aria-hidden="true" style="font-size: 1.5em; vertical-align: middle;"></i></a>
                                             </div>
                                     </div>
-
                             </div>
+
+
+                            <div class="image_collection">
+                                <div class="fileinput fileinput-new" data-provides="fileinput">
+                                    <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 16vw; height: 16vh;"></div>
+                                    <div>
+                                    <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+                                    <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                    </div>
+                                </div>
+
+                                <div class="quickreply_add_btn_content">
+                                    <div>
+                                      <button type="button" class="btn btn-default elements_btn" style="width: 16vw"><i class="fa fa-plus" aria-hidden="true"> ADD QUICK REPLY</i></button>
+                                      <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!"><i class="fa fa-question-circle-o" aria-hidden="true" style="font-size: 1.5em; vertical-align: middle;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
                         </div>
 
                         <div class="row main_bottom_btn">
@@ -219,6 +259,7 @@
         <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
         <!-- Bootstrap 3.3.6 -->
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap/css/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
         <!-- FastClick -->
         <script src="plugins/fastclick/fastclick.js"></script>
         <!-- AdminLTE App -->
