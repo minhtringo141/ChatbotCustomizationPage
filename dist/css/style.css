@@ -46,12 +46,13 @@
 .content-wrapper .content .row .col-md-4 {
 	border-right: 2px dotted gray;
 	overflow-y: auto;
-	height: 80vh
+	height: 85vh
 }
 
 .content-wrapper .content .row .col-md-8 {
 	overflow-y: auto;
-	height: 80vh
+	height: 85vh;
+	position: relative;
 }
 
 .content-wrapper .content .row .col-md-4 h4 {
@@ -60,10 +61,75 @@
 	margin-left: 10px; 	
 }
 
+.content-wrapper .content .row .col-md-8 .main_bottom_btn {
+	margin-top: 20px;
+}
+
+.content-wrapper .content .row .col-md-8 .main_bottom_btn div {
+	margin: 10px;
+}
+
+.content-wrapper .content .row .col-md-8 .textcard {
+	position: relative;
+}
+
+.content-wrapper .content .row .col-md-8 .textcard .textcard_content textarea {
+	overflow:hidden;
+  	padding:10px;
+  	width:18vw;
+  	font-size:1.2em;
+  	border-radius:10px;
+  	margin-top: 10px;
+  	border:2px solid #556677;
+  	background-color: #e2e2e2;
+  	resize: none;
+}
+
+.content-wrapper .content .row .col-md-8 .textcard .textcard_header {
+	display: flex;
+}
+.content-wrapper .content .row .col-md-8 .textcard .textcard_header textarea {
+	padding: 2px;
+  	width:18vw;
+  	font-size:1.2em;
+  	border-radius:5px;
+  	margin-top: 10px;
+  	background-color: #e2e2e2;
+  	resize: none;
+}
+
+.content-wrapper .content .row .col-md-8 .textcard .textcard_header button {
+	background-color: #ffffff;
+	border : none;
+	border-radius: 10px;
+	margin-top: 0px
+}
+
+.content-wrapper .content .row .col-md-8 .textcard .textcard_add_btn_content button {
+	padding-top: 0px 0px;
+	margin-top: 0px 0px;
+	width: 18vw;
+	font-size: 1.2em;
+	vertical-align: middle;
+}
+
+.content-wrapper .content .row .col-md-8 .textcard .textcard_content button {
+	padding-top: 0px 0px;
+	margin-top: 0px 0px;
+	width: 18vw;
+	font-size: 1.2em;
+	vertical-align: middle;
+}
+
+
+.content-wrapper .content .row .col-md-8 .textcard textarea:focus {
+	outline: none;
+}
+.content-wrapper .content .row .col-md-8 .textcard button:focus {
+	outline: none;
+}
+
 /* button messenger */
-
-
-
 .get_start_button {
 	font-family: sans serif;
     padding: 0.5vh 1.5vh;
