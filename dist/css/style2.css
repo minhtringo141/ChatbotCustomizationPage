@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+/* begin landing.html*/
+.get_start_container {
+	position: relative;
+	text-align: center;
+}
+.get_start_banner {
+	position: absolute;
+	top: 40vh;
+	right: 0px;
+	left: 0px
+}
+
+.get_start_button {
+	line-height: 40px;
+	font-size: 1.5em;
+	font-family: sans serif;
+    padding: 5px 20px;
+    font-size: 1.6em;
+    border-radius: 15px;
+}
+
+.get_start_button img {
+	height: 8vh;
+}
+
+.get_start_banner .col-md-12 .btn:focus{
+	outline: none !important;
+}
+
+/* end landing.hmtl*/
+
+/* begin listpage */
+.list_page_element .row_title {
+	line-height: 10vh;
+}
+
+.list_page_element .row .box {
+	width: 90%; 
+	height: 30vh; 
+	background-color: #ffffff;
+	border-radius: 20px;
+	border: 2px solid gray;
+	padding-bottom: 5vh;
+	
+}
+
+
+/* end listpage */
