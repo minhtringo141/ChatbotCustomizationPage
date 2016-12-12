@@ -7,6 +7,7 @@
 
 .btn-default {
 	border-radius: 10px;
+	font-size: 1.2em
 }
 
 .children_block {
@@ -16,7 +17,6 @@
 	flex-basis: 25%;
 	padding: 10px;
     flex: 2;
-	
 }
 
 .children_block .btn {
@@ -25,6 +25,11 @@
 
 .children_block .normal_btn {
 	background-color: #ffffff;
+	font-size: 1em
+}
+
+.children_block .build_in_btn {
+	font-size: 1.17em
 }
 
 .children_block .normal_btn:focus {
@@ -45,16 +50,59 @@
 	box-shadow: none;
 }
 
+.content-wrapper .content .row {
+	margin-left: 0px;
+	position: relative;
+
+}
+
 .content-wrapper .content .row h3 {
 	font-weight: bold
 }
 
 
-.content-wrapper .content .row .col-md-4 {
-	border-right: 2px dotted gray;
+.content-wrapper .content .row .col-md-3 {
+	border-right: 1px solid #e6e0ed;
 	overflow-y: auto;
-	height: 85vh
+	height: 85vh;
+	background-color: #ffffff;
 }
+
+.content-wrapper .content .row .col-md-1 {
+	border: 1px solid #e6e9ed;
+	position: relative;
+}
+
+.content-wrapper .content .row .col-md-1 .main_bottom_btn {
+	padding: 0px auto;
+	margin: 0px auto;
+	top: 3vh;
+	text-align: center;
+	/*background-color: #ffffff;*/
+}
+
+.content-wrapper .content .row .col-md-1 .main_bottom_btn .btn-app {
+	border-radius: 20px;
+	/*color: #ffffff*/
+	background-color: #4c82bc;
+	color: #ffffff;
+	font-size: 1em
+}
+.content-wrapper .content .row .col-md-1 .main_bottom_btn .btn-app i {
+}
+
+.content-wrapper .content .row .col-md-1 .main_bottom_btn .btn-app:hover {
+	background-color: #367fa9;
+}
+
+
+
+.content-wrapper .content .row .col-md-1 .main_bottom_btn div{
+	margin: 10px auto;
+}
+
+
+
 
 .content-wrapper .content .row .col-md-8 {
 	overflow-y: auto;
@@ -63,7 +111,7 @@
 	overflow-x: auto;
 }
 
-.content-wrapper .content .row .col-md-4 h4 {
+.content-wrapper .content .row .col-md-3 h4 {
 	color: #797979;
 	font-size: 1.5em;
 	margin-left: 10px; 	
@@ -73,17 +121,6 @@
 .content-wrapper .content .row .col-md-8 button {
 	background-color: #ffffff
 }
-
-.content-wrapper .content .row .col-md-8 .main_bottom_btn {
-	margin-top: 20px;
-}
-
-.content-wrapper .content .row .col-md-8 .main_bottom_btn div {
-	margin: 10px;
-	background-color: #ffffff
-
-}
-
 
 .content-wrapper .content .row .col-md-8 .textcard {
 	position: relative;
@@ -108,7 +145,7 @@
 .content-wrapper .content .row .col-md-8 .textcard .textcard_header textarea {
 	padding: 2px;
   	width:16vw;
-  	font-size:1em;
+  	font-size:1.2em;
   	border-radius:5px;
   	margin-top: 10px;
   	background-color: #e2e2e2;
@@ -125,7 +162,7 @@
 	padding-top: 0px 0px;
 	margin-top: 0px 0px;
 	width: 16vw;
-	font-size: 1em;
+	font-size: 1.2em;
 	vertical-align: middle;
 }
 
@@ -137,7 +174,7 @@
 	padding-top: 0px 0px;
 	margin-top: 0px 0px;
 	width: 16vw;
-	font-size: 1em;
+	font-size: 1.2em;
 	vertical-align: middle;
 }
 
@@ -149,7 +186,25 @@
 	outline: none;
 }
 
+.content-wrapper .content .row .col-md-8 .edit_area_content textarea {
+	resize: none; 
+	width: 16vw; 
+	border-radius: 10px; 
+	padding-left: 10px;
+	font-size: 1.2em;
+}
 
+.content-wrapper .content .row .col-md-8 .edit_area_content textarea:focus {
+	outline: none;
+}
+
+.content-wrapper .content .row .col-md-8 .edit_area_content .delete_block_btn {
+	border: 1px;
+	border-radius: 10px;
+}
+.content-wrapper .content .row .col-md-8 .edit_area_content .delete_block_btn:focus {
+	outline: none;
+}
 
 
 /*gallery*/
@@ -184,7 +239,7 @@
 
 .content-wrapper .content .row .col-md-8 .edit_area_content .gallery .elements_btn {
 	width: 16vw;
-	background-color: #ffffff
+	background-color: #ffffff;
 }
 
 .content-wrapper .content .row .col-md-8 .edit_area_content .gallery .elements_btn:focus {
