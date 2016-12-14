@@ -5,18 +5,18 @@
 }
 
 /* begin landing.html*/
-.get_start_container {
+.start_container {
 	position: relative;
 	text-align: center;
 }
-.get_start_banner {
+.start_banner {
 	position: absolute;
 	top: 40vh;
 	right: 0px;
 	left: 0px
 }
 
-.get_start_button {
+.start_btn {
 	line-height: 6vh;
 	font-size: 1.5em;
 	font-family: sans serif;
@@ -25,12 +25,12 @@
     border-radius: 15px;
 }
 
-.get_start_button img {
+.start_btn img {
 	height: 6vh;
 }
 
-.get_start_banner .col-md-12 .btn:focus{
-	outline: none !important;
+.start_banner .col-md-12 .btn:focus{
+	outline:start_banner none !important;
 }
 
 /* end landing.hmtl*/
