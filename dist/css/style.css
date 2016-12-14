@@ -268,7 +268,7 @@
  
 
 /* button messenger */
-.get_start_button {
+.get_started_button {
 	font-family: sans serif;
     padding: 0.5vh 1.5vh;
     font-size: 1.3em;
@@ -277,13 +277,15 @@
     background-color: #ffffff;
 }
 
-.get_start_button img {
+.get_started_button img {
 	height: 3.5vh;
 }
 
-.get_start_button:focus{
+.get_started_button:focus{
 	outline: none !important;
 
 }
 
 /* /. button messenger*/
+
+

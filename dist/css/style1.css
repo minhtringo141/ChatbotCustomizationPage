@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+/* begin landing.html*/
+.get_start_container {
+	position: relative;
+	text-align: center;
+}
+.get_start_banner {
+	position: absolute;
+	top: 40vh;
+	right: 0px;
+	left: 0px
+}
+
+.get_start_button {
+	line-height: 6vh;
+	font-size: 1.5em;
+	font-family: sans serif;
+    padding: 5px 20px;
+    font-size: 1.6em;
+    border-radius: 15px;
+}
+
+.get_start_button img {
+	height: 6vh;
+}
+
+.get_start_banner .col-md-12 .btn:focus{
+	outline: none !important;
+}
+
+/* end landing.hmtl*/
